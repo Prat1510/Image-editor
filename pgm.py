@@ -210,7 +210,6 @@ writepgm(z,'edge.pgm')
 x=readpgm('test.pgm')
 writepgm(MinimumEnergy(z,x),'minenergy.pgm')
 ##############################################
-##############################################
 x = readpgm('test1.pgm')			# test.pgm is the image present in the same working directory
 writepgm(x, 'test_o1.pgm')		# x is the image to output and test_o.pgm is the image output in the same working directory
 ###################################
